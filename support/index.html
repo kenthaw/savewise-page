@@ -81,9 +81,29 @@
       font-size: 0.85rem;
       color: #999;
     }
+    nav.topnav {
+      max-width: 720px;
+      margin: 0 auto 1rem;
+      display: flex;
+      gap: 1.25rem;
+      padding: 0 0.25rem;
+      font-size: 0.9rem;
+    }
+    nav.topnav a {
+      color: #16a34a;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav.topnav a.active { color: #1a1a1a; font-weight: 600; }
+    nav.topnav a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
+  <nav class="topnav">
+    <a href="../">Home</a>
+    <a href="../privacy-policy/">Privacy Policy</a>
+    <a class="active" href="../support/">Support</a>
+  </nav>
   <div class="container">
     <div class="logo"><span class="save">Save</span><span class="wise">Wise</span></div>
     <h1>Support</h1>
