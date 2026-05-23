@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaveWise - Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fafafa;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .logo {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .logo .save { color: #16a34a; }
+    .logo .wise { color: #4ade80; }
+    h1 {
+      font-size: 1.75rem;
+      margin-bottom: 0.25rem;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p, li { font-size: 0.95rem; color: #333; }
+    ul { padding-left: 1.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; }
+    li { margin-bottom: 0.3rem; }
+    .highlight {
+      background: #f0f7ff;
+      border-left: 3px solid #3b82f6;
+      padding: 1rem 1.25rem;
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
+    .highlight p { color: #1e40af; font-weight: 500; }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #eee;
+      font-size: 0.85rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo"><span class="save">Save</span><span class="wise">Wise</span></div>
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">SaveWise — Expenses Tracker &middot; Last updated: 29 March 2026</p>
+
+    <div class="highlight">
+      <p>SaveWise is an offline-first app. All your financial data stays on your device. We do not have access to your transactions, accounts, balances, or personal finances.</p>
+    </div>
+
+    <h2>1. Data Stored on Your Device</h2>
+    <p>All core data is stored locally on your device using an encrypted SQLite database and is never uploaded to any server:</p>
+    <ul>
+      <li>Transactions (income, expenses, transfers)</li>
+      <li>Accounts and balances</li>
+      <li>Categories</li>
+      <li>Saving goals</li>
+      <li>Income sources</li>
+      <li>Profile name and currency preference</li>
+      <li>Receipt images from Smart Scan</li>
+    </ul>
+    <p>This data is only accessible to you. If you uninstall the app, all local data is permanently deleted.</p>
+
+    <h2>2. Data We Collect</h2>
+    <p>We collect a minimal amount of anonymous data to improve the app:</p>
+
+    <h3 style="font-size:1rem; margin-top:1rem;">a) Scan Logs (Anonymous)</h3>
+    <p>When you use Smart Scan to scan a receipt, we may log the following to improve our categorisation accuracy:</p>
+    <ul>
+      <li>OCR-extracted text from the receipt</li>
+      <li>Detected and confirmed amounts, merchants, and categories</li>
+      <li>Timestamp</li>
+    </ul>
+    <p>This data is anonymous and cannot be linked back to you. No account IDs, device IDs, or personal identifiers are included.</p>
+
+    <h3 style="font-size:1rem; margin-top:1rem;">b) Feedback</h3>
+    <p>If you choose to submit feedback from within the app, we collect:</p>
+    <ul>
+      <li>Your mood rating and comment</li>
+      <li>Your name (only if you provide it — optional)</li>
+      <li>Platform and OS version</li>
+    </ul>
+
+    <h3 style="font-size:1rem; margin-top:1rem;">c) Crash Reports</h3>
+    <p>We use Firebase Crashlytics to collect anonymous crash reports. This includes:</p>
+    <ul>
+      <li>Stack traces and error logs</li>
+      <li>Device model and OS version</li>
+      <li>App version</li>
+    </ul>
+    <p>No personal or financial data is included in crash reports.</p>
+
+    <h2>3. Gemini AI (Smart Scan)</h2>
+    <p>If you enable Gemini AI in Settings, receipt images are sent to Google's Gemini API for parsing. This uses <strong>your own API key</strong> — we do not proxy or store these requests. Google's <a href="https://ai.google.dev/terms" target="_blank">Terms of Service</a> and privacy policy apply to that data.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <ul>
+      <li><strong>Firebase (Google)</strong> — Firestore for scan logs and feedback, Crashlytics for crash reports. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+    </ul>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell, share, or transfer your data to any third party for advertising, marketing, or any other purpose beyond what is described in this policy.</p>
+
+    <h2>6. Data Retention</h2>
+    <ul>
+      <li><strong>Local data:</strong> Stored indefinitely on your device until you delete the app or clear app data.</li>
+      <li><strong>Scan logs:</strong> Retained for up to 12 months, then deleted.</li>
+      <li><strong>Feedback:</strong> Retained for up to 12 months.</li>
+      <li><strong>Crash reports:</strong> Retained per Firebase Crashlytics' default retention policy (90 days).</li>
+    </ul>
+
+    <h2>7. Your Rights</h2>
+    <p>Since your financial data is stored only on your device, you have full control over it. You can:</p>
+    <ul>
+      <li>Export your data at any time from Settings</li>
+      <li>Delete all data by uninstalling the app</li>
+      <li>Request deletion of scan logs or feedback by contacting us</li>
+    </ul>
+
+    <h2>8. Children's Privacy</h2>
+    <p>SaveWise is not directed at children under 13. We do not knowingly collect data from children.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Changes will be posted on this page with an updated date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have questions about this privacy policy, contact us at:</p>
+    <p><strong>savewisethinktwice@gmail.com</strong></p>
+
+    <footer>
+      <p>&copy; 2026 SaveWise. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
